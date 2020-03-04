@@ -17,7 +17,7 @@
 		6D635FF1E009D264A500278EB2320B1B /* Pods-HTIUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C21524BD817B0C2CDE02E43BC4997EB /* Pods-HTIUtils_Example-dummy.m */; };
 		6E46C1005454F022F29A500A6A659522 /* Pods-HTIUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D24DEA62AB977888DA5DAEAFEB6FAE93 /* Pods-HTIUtils_Tests-dummy.m */; };
 		875B82C77D1D6DEA6BC008ABF5A55C44 /* Pods-HTIUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE87782C73B4913E82A4EF9956985D4D /* Pods-HTIUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D95E8EBC240F645D006CFE74 /* ExtString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E8EBB240F645D006CFE74 /* ExtString.swift */; };
+		D95E8EC2240F6A0E006CFE74 /* ExtString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E8EC1240F6A0E006CFE74 /* ExtString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +65,7 @@
 		D24DEA62AB977888DA5DAEAFEB6FAE93 /* Pods-HTIUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTIUtils_Tests-dummy.m"; sourceTree = "<group>"; };
 		D73C5C34ACF4B36DCD1351EE76430E74 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HTIUtils/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		D83823FCDC4DAD733150BF3B785D7C56 /* Pods-HTIUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HTIUtils_Example.modulemap"; sourceTree = "<group>"; };
-		D95E8EBB240F645D006CFE74 /* ExtString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtString.swift; sourceTree = "<group>"; };
+		D95E8EC1240F6A0E006CFE74 /* ExtString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtString.swift; path = ../HTIUtils/Classes/ExtString.swift; sourceTree = "<group>"; };
 		DDD4DA18DF7628FC0351A8484F25998F /* HTIUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTIUtils-dummy.m"; sourceTree = "<group>"; };
 		E03DE0CD4C10CD388F516F94B36EFC2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E577E296B4FE31A00961576E5F3F663C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		11235E2EB45F26550E92A62AA037B90E /* HTIUtils */ = {
 			isa = PBXGroup;
 			children = (
-				D95E8EBA240F642B006CFE74 /* Source */,
+				D95E8EC0240F6A00006CFE74 /* Source */,
 				D73C5C34ACF4B36DCD1351EE76430E74 /* ReplaceMe.swift */,
 				9C3EFFBB7073ECBE6FEB39C6AC0EE878 /* Pod */,
 				EFC2EB5FF577B5877DA0B805C71CAC29 /* Support Files */,
@@ -202,10 +202,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D95E8EBA240F642B006CFE74 /* Source */ = {
+		D95E8EC0240F6A00006CFE74 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D95E8EBB240F645D006CFE74 /* ExtString.swift */,
+				D95E8EC1240F6A0E006CFE74 /* ExtString.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -390,7 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2001C41D1FE801A4BB27710D92CDCCB8 /* HTIUtils-dummy.m in Sources */,
-				D95E8EBC240F645D006CFE74 /* ExtString.swift in Sources */,
+				D95E8EC2240F6A0E006CFE74 /* ExtString.swift in Sources */,
 				0810D0F5494EF7C6AA724F28F85F28D3 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
