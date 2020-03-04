@@ -1,0 +1,22 @@
+{
+  "name": "HTIUtils",
+  "version": "0.1.0",
+  "summary": "A short description of HTIUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/muslin@hytexts.com/HTIUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "muslin@hytexts.com": "muslin@hytexts.com"
+  },
+  "source": {
+    "git": "https://github.com/muslin@hytexts.com/HTIUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HTIUtils/Classes/**/*"
+}

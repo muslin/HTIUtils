@@ -1,0 +1,6 @@
+framework module HTIUtils {
+  umbrella header "HTIUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}
