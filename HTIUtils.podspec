@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 '... HTIUtils.'
                        DESC
 
-  s.homepage         = 'https://github.com/muslin@hytexts.com/HTIUtils'
+  s.homepage         = 'https://github.com/muslin/HTIUtils'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'muslin@hytexts.com' => 'muslin@hytexts.com' }
-  s.source           = { :git => 'https://github.com/muslin@hytexts.com/HTIUtils.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/muslin/HTIUtils.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
