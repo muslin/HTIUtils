@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Source/**/*' #'HTIUtils/Classes/**/*'
+  s.source_files = 'HTIUtils/Source/**/*' #'HTIUtils/Classes/**/*'
   s.swift_version = '5.0'
   
   # s.resource_bundles = {
