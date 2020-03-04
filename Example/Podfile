@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HTIUtils_Example' do
+  pod 'HTIUtils', :path => '../'
+
+  target 'HTIUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
