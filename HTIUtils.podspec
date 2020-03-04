@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Source/*' #'HTIUtils/Classes/**/*'
+  s.source_files = 'HTIUtils/Classes/**/*'
   s.swift_version = '5.0'
   
   # s.resource_bundles = {
@@ -40,4 +40,7 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.dependency 'CryptoSwift'
+  
 end
